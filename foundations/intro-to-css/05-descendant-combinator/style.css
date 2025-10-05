@@ -1,1 +1,7 @@
 /* Add CSS Styling */
+div.container .text {
+    background-color: blue;
+    color: #ff0;
+    font-size: 20px;
+    text-align: center;
+}
