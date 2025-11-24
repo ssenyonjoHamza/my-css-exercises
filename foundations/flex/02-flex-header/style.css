@@ -1,6 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .header  {
   font-family: monospace;
   background: papayawhip;
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -9,6 +17,9 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
@@ -22,4 +33,21 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.left-links, .right-links {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+}
+
+.left-links ul {
+  justify-content: flex-start;
+}
+
+.right-links ul{
+  justify-content: end;
 }
